@@ -1,0 +1,36 @@
+
+#play {
+    -fx-background-image: url("../res/play.png");
+}
+
+#prev {
+    -fx-background-image: url("../res/prev.png");
+}
+
+#next {
+    -fx-background-image: url("../res/next.png");
+}
+
+.button,
+.toggle-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-opacity: 70%;
+}
+
+/* Przyciski po najechaniu */
+.button:hover,
+.toggle-button:hover,
+.toggle-button:selected {
+    -fx-opacity: 100%;
+}
+
+.slider .track {
+	-fx-background-color: #003366;
+	-fx-pref-height: 1px;
+}
+
+.column-header-background .label{
+    -fx-text-fill: #003366;
+}
